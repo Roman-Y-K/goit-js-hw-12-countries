@@ -1,4 +1,39 @@
 body {
   background: black;
-  color: wheat;
+  background-image: url("https://static4.depositphotos.com/1006728/313/i/950/depositphotos_3130233-stock-photo-flags-of-the-world.jpg");
+  background-size: cover;
+  background-position: 0px -100px;
+
+  color: whitesmoke;
+}
+
+.search-input {
+  margin-top: 50px;
+  margin-left: 600px;
+  width: 350px;
+
+  font-size: 25px;
+}
+
+.countries-item {
+  font-size: 30px;
+}
+
+.country-name {
+  text-align: center;
+  font-size: 60px;
+}
+
+.countries-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.country-capital,
+.country-population,
+.country-languages,
+.languages-list {
+  font-size: 40px;
+  text-shadow: black;
 }
